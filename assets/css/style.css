@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+h3 {
+    font-weight: 700;
+}
+
+.sub-title {
+    color: #969696;
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+}
+
+
+/* ############# Profile-section #############  */
+
+.header {
+    position: relative;
+}
+
+.header img {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.banner .container {
+    padding: 0;
+    width: 100%;
+}
+
+.banner-img {
+    width: 100%;
+    height: 250px;
+    background-image: url("../img/gallery1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+
+.profile-details {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.profile-details2 {
+    text-align: center;
+    padding-top: 0px;
+}
+
+.profile-section .profile-img img {
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    border: 5px solid #fff;
+    position: absolute;
+    top: -100px;
+    left: 60px;
+}
+
+.profile-section .logo-img img {
+    height: 80px;
+    width: 80px;
+    border-radius: 20px;
+    border: 5px solid #fff;
+    position: absolute;
+    top: -40px;
+    right: 60px;
+}
+
+.profile-section {
+    height: 100px;
+    border-radius: 50px 50px 0 0;
+    margin-top: -80px;
+    background-color: white;
+    position: relative;
+}
+
+.profile-section .company-img img {
+    height: 140px;
+    width: 140px;
+    border-radius: 20px;
+    border: 5px solid #fff;
+    position: absolute;
+    left: 50%;
+    top: -70px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
+}
+
+.profile-details h4 {
+    font-weight: 700;
+}
+
+.profile-details span {
+    color: #006d8b;
+    font-weight: 500;
+}
+
+.profile-details2 h4 {
+    font-weight: 700;
+}
+
+.profile-details2 span {
+    color: #006d8b;
+    font-weight: 500;
+}
+
+/* ############# Contact-Icons #############  */
+
+.contact-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contact-icons .icons {
+    padding: 0.85rem;
+    border-radius: 17px;
+}
+
+.contact-icons .icon-1 {
+    background: linear-gradient(270deg, #1D1D1D -43.74%, #9A9A9A 182.01%);
+
+}
+
+.contact-icons .icon-2 {
+    background: linear-gradient(270deg, #0C3157 -43.74%, #9A9A9A 182.01%);
+
+
+}
+
+.contact-icons .icon-3 {
+    background: linear-gradient(270deg, #500808 -43.74%, #9A9A9A 182.01%);
+
+
+
+}
+
+.contact-icons .icon-4 {
+    background: linear-gradient(270deg, #869609 -43.74%, #9A9A9A 182.01%);
+
+
+
+}
+
+.contact-icons .icons p {
+    margin: 0;
+    color: #fff;
+    margin-left: 1rem;
+
+}
+
+.contact-icons .icons span {
+    color: #ffffff;
+}
+
+/* ############# Social-Icons #############  */
+
+.social-icon-wrap {
+    padding: 30px 0 10px;
+}
+
+.social-icon-wrap .row {
+    --bs-gutter-x: -5px;
+    --bs-gutter-y: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+.social-icons {
+    height: 90px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.social-icons .svg-inline--fa {
+    color: #fff !important;
+    font-size: 50px;
+}
+
+.social-icons.icon-1 {
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+.social-icons.icon-2 {
+    background: linear-gradient(90deg, #78CD51 0%, #A0FC84 100%);
+
+}
+
+.social-icons.icon-3 {
+    background: rgba(0, 114, 201, 1);
+
+}
+
+.social-icons.icon-4 {
+    background: rgba(68, 103, 173, 1);
+
+}
+
+.social-icons.icon-5 {
+    background: rgba(90, 153, 236, 1);
+
+}
+
+.social-icons.icon-6 {
+    background: rgba(70, 118, 237, 1);
+
+}
+
+
+/* ############# Rating-section #############  */
+
+
+.review-section {
+    background: linear-gradient(270deg, #6905BE 5.57%, #B4FCCA 92.04%);
+    padding: 2rem;
+    border-radius: 17px;
+}
+
+
+.rating-box {
+    display: inline-block;
+}
+
+.rating-box .rating-container {
+    direction: rtl !important;
+    width: 100%;
+}
+
+.rating-box .rating-container label {
+    display: inline-block;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 23px;
+    transition: color 0.2s;
+    margin: 0;
+}
+
+.rating-box .rating-container input {
+    display: none;
+}
+
+.rating-box .rating-container label:hover,
+.rating-box .rating-container label:hover~label,
+.rating-box .rating-container input:checked~label {
+    color: gold;
+}
+
+
+
+
+@media(max-width:991px) {
+
+
+    .contact-icons {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .social-icon-wrap {
+        padding: 30px 0 20px;
+    }
+
+    .banner .container {
+        max-width: 100%;
+    }
+}
+
+@media(max-width:576px) {
+
+
+    .profile-section .profile-img img {
+        height: 160px;
+        width: 160px;
+        top: -80px;
+        left: 30px;
+    }
+
+    .contact-icons {
+        justify-content: space-evenly;
+        gap: 0;
+    }
+
+    .banner-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .profile-section .logo-img img {
+        right: 30px;
+    }
+
+    .profile-details {
+        padding-top: 10px;
+    }
+
+    .social-icons {
+        margin-bottom: 1.35rem !important;
+    }
+
+    .download-btn .btn {
+        width: 100%;
+    }
+
+    .social-icon-wrap {
+        padding: 30px 0 10px;
+    }
+
+}
+
+
+@media (min-width: 991px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .social-icon-wrap {
+        padding: 30px 0 20px;
+    }
+
+    .contact-icons {
+        justify-content: center;
+        gap: 20px;
+    }
+
+}
